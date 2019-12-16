@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "Amoda",
+    "slug": "Amoda",
+    "privacy": "public",
+    "sdkVersion": "35.0.0",
+    "platforms": ["ios", "android", "web"],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./src/assets/icon.png",
+    "splash": {
+      "image": "./src/assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "buildNumber": "5",
+      "supportsTablet": true,
+      "userInterfaceStyle": "automatic",
+      "bundleIdentifier": "com.devteam.amoda073",
+      "config": {
+        "googleMapsApiKey": "AIzaSyCArKIzbQ-Sb8B6ldtZD9LUzZVCZenWGv0"
+      }
+    },
+    "android": {
+      "versionCode": 5,
+      "package": "com.devteam.amoda073",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyCArKIzbQ-Sb8B6ldtZD9LUzZVCZenWGv0"
+        }
+      }
+    },
+    "androidStatusBar": {
+      "barStyle": "dark-content"
+    }
+  }
+}
